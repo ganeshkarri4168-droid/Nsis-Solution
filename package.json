@@ -1,0 +1,26 @@
+{
+  "name": "nsis-techno-solutions",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server.js\" \"vite\"",
+    "start": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "@vitejs/plugin-react-swc": "^4.3.3",
+    "baseline-browser-mapping": "^2.11.25",
+    "concurrently": "^9.2.1",
+    "vite": "^7.1.5"
+  }
+}
