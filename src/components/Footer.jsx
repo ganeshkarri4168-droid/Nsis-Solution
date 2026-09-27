@@ -32,7 +32,6 @@ export default function Footer() {
       <div className="footer-grid">
         <div>
           <p className="brand-mini">{COMPANY.legalName}</p>
-          <img src="/nsis-mark.png?v=2" alt="" className="footer-logo" />
           <p>{COMPANY.tagline}</p>
           <p>{COMPANY.description}</p>
         </div>
@@ -60,8 +59,6 @@ export default function Footer() {
           <FooterLink href={`mailto:${COMPANY.email}`}>{COMPANY.email}</FooterLink>
           <FooterLink href={`tel:${COMPANY.phoneTel[0]}`}>{COMPANY.phones[0]}</FooterLink>
           <FooterLink href={`https://wa.me/${whatsapp}`}>WhatsApp {whatsappDisplay}</FooterLink>
-          <p>GSTIN {COMPANY.gstin}</p>
-          <p>UDYAM {COMPANY.udyam}</p>
         </div>
       </div>
       <div className="copyright-row">

@@ -1,4 +1,4 @@
-import CTASection from "../components/CTASection.jsx";
+import { Link } from "react-router-dom";
 import LeadershipSection from "../components/LeadershipSection.jsx";
 import PageHero from "../components/PageHero.jsx";
 import Seo from "../components/Seo.jsx";
@@ -93,7 +93,19 @@ export default function About() {
         </ul>
       </section>
 
-      <CTASection title="Start a conversation with the NSIS desk." />
+      <section className="about-cta">
+        <div className="about-cta-copy">
+          <p className="eyebrow">Get in touch</p>
+          <h2>Ask for the documents that belong with your RFQ.</h2>
+          <p>
+            Share the specification, quantity, location and timeline. The desk will respond on the
+            email or mobile you provide.
+          </p>
+        </div>
+        <Link className="btn btn-gold" to="/contact">
+          Ask for the documents
+        </Link>
+      </section>
     </main>
   );
 }

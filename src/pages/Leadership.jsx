@@ -15,9 +15,8 @@ export default function Leadership() {
       <section className="profile-hero">
         <div className="profile-hero-inner">
           <div className="profile-avatar-wrap">
-            <div className="profile-avatar">
-              <img src="/nsis-mark.png?v=2" alt="" />
-              <span>{COMPANY.leaderInitials}</span>
+            <div className="profile-avatar profile-avatar-photo">
+              <img src="/nsis-profile.jpg" alt={COMPANY.leader} />
             </div>
             <span className="profile-badge">
               <Icon name="shield" />
@@ -47,35 +46,35 @@ export default function Leadership() {
       </section>
 
       <section className="section profile-story">
-        <article className="profile-portrait">
+        <div className="profile-story-head">
           <div className="profile-portrait-frame">
-            <strong>{COMPANY.leaderInitials}</strong>
+            <img src="/nsis-profile.jpg" alt="" />
           </div>
-          <p className="chip">Proprietor</p>
-          <h2>{COMPANY.leader}</h2>
-          <p>{COMPANY.leaderRole}</p>
-        </article>
-        <div>
-          <p className="eyebrow">Experience</p>
-          <h2>Service background, applied to a working desk.</h2>
-          <p>
-            Bringing more than 20 years of service experience in the Indian Air Force, Shaik Noor
-            Mohammed contributes a professional approach founded on discipline, responsibility,
-            integrity and commitment to quality.
-          </p>
-          <p>
-            That background supports NSIS Techno Solutions’ emphasis on structured execution, timely
-            coordination, documentation and dependable customer support — from requirement review
-            through quotation, supply or execution, and agreed post-delivery support.
-          </p>
-          <p>
-            He leads a proprietorship desk for government, institutional and commercial customers
-            across India — procurement, technology, engineering and project-related work.
-          </p>
-          <Link className="btn btn-navy" to="/contact">
-            Speak with the desk
-          </Link>
+          <div>
+            <p className="chip">Proprietor</p>
+            <h2>{COMPANY.leader}</h2>
+            <p>{COMPANY.leaderRole}</p>
+          </div>
         </div>
+        <p className="eyebrow">Experience</p>
+        <h2>Service background, applied to a working desk.</h2>
+        <p>
+          Bringing more than 20 years of service experience in the Indian Air Force, Shaik Noor
+          Mohammed contributes a professional approach founded on discipline, responsibility,
+          integrity and commitment to quality.
+        </p>
+        <p>
+          That background supports NSIS Techno Solutions’ emphasis on structured execution, timely
+          coordination, documentation and dependable customer support — from requirement review
+          through quotation, supply or execution, and agreed post-delivery support.
+        </p>
+        <p>
+          He leads a proprietorship desk for government, institutional and commercial customers
+          across India — procurement, technology, engineering and project-related work.
+        </p>
+        <Link className="btn btn-navy" to="/contact">
+          Speak with the desk
+        </Link>
       </section>
 
       <section className="section">

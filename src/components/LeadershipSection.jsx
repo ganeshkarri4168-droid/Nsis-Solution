@@ -7,10 +7,6 @@ export default function LeadershipSection() {
       <div>
         <p className="eyebrow">Leadership</p>
         <div className="leader-intro">
-          <div className="profile-avatar leader-avatar">
-            <img src="/nsis-mark.png?v=2" alt="" />
-            <span>{COMPANY.leaderInitials}</span>
-          </div>
           <div>
             <h2>{COMPANY.leader}</h2>
             <p className="tagline">

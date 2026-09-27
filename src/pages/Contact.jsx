@@ -98,16 +98,6 @@ export default function Contact() {
               </div>
             </li>
           </ul>
-          <div className="contact-creds">
-            <p>
-              <strong>GSTIN</strong>
-              {COMPANY.gstin}
-            </p>
-            <p>
-              <strong>UDYAM</strong>
-              {COMPANY.udyam}
-            </p>
-          </div>
         </aside>
       </section>
 

@@ -80,20 +80,6 @@ export default function Home() {
           Professional documentation, responsible representation, responsive communication and
           disciplined coordination from enquiry through completion.
         </p>
-        <div className="cred-bar">
-          <p>
-            <strong>GSTIN</strong> 37EJJPS0809D1Z5
-          </p>
-          <p>
-            <strong>UDYAM</strong> UDYAM-AP-10-0125033
-          </p>
-          <p>
-            <strong>Constitution</strong> Proprietorship
-          </p>
-          <p>
-            <strong>Coverage</strong> Pan India
-          </p>
-        </div>
       </section>
 
       <section className="section">

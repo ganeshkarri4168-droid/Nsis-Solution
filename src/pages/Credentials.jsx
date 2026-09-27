@@ -7,28 +7,13 @@ export default function Credentials() {
       <PageHero
         kicker="07 — Credentials & differentiators"
         title="Professional, documented and responsible."
-        lede="Statutory details are presented for formal business communication. Client logos, OEM marks and testimonials are added only when documentary support is available."
+        lede="Client logos, OEM marks and testimonials are added only when documentary support is available."
       />
-
-      <div className="cred-bar">
-        <p>
-          <strong>GSTIN</strong> 37EJJPS0809D1Z5
-        </p>
-        <p>
-          <strong>UDYAM</strong> UDYAM-AP-10-0125033
-        </p>
-        <p>
-          <strong>Constitution</strong> Proprietorship
-        </p>
-        <p>
-          <strong>Coverage</strong> Pan India
-        </p>
-      </div>
 
       <div className="value-grid">
         <article>
-          <h3>Statutory credentials</h3>
-          <p>GST registered and Udyam registered, with details clearly presented for formal business communication.</p>
+          <h3>Documentation first</h3>
+          <p>Technical and commercial submissions are structured around the stated requirement and available supporting documents.</p>
         </article>
         <article>
           <h3>Documentation focus</h3>

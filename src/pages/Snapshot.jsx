@@ -8,7 +8,7 @@ export default function Snapshot() {
     <main className="page">
       <Seo
         title="NSIS at a Glance | Executive Snapshot"
-        description="NSIS Techno Solutions at a glance: a Pan-India proprietorship for integrated procurement, engineering and project-support solutions. GSTIN 37EJJPS0809D1Z5."
+        description="NSIS Techno Solutions at a glance: a Pan-India proprietorship for integrated procurement, engineering and project-support solutions."
       />
       <PageHero
         kicker="01 — Executive snapshot"
@@ -46,20 +46,6 @@ export default function Snapshot() {
           Professional documentation, responsible representation, responsive communication and
           disciplined coordination from enquiry through completion.
         </p>
-        <div className="cred-bar">
-          <p>
-            <strong>GSTIN</strong> 37EJJPS0809D1Z5
-          </p>
-          <p>
-            <strong>UDYAM</strong> UDYAM-AP-10-0125033
-          </p>
-          <p>
-            <strong>Constitution</strong> Proprietorship
-          </p>
-          <p>
-            <strong>Coverage</strong> Pan India
-          </p>
-        </div>
         <div className="hero-actions">
           <Link className="btn btn-navy" to="/leadership">
             Meet leadership
