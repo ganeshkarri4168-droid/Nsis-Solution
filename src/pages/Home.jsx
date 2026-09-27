@@ -48,6 +48,22 @@ export default function Home() {
         <p>Partnership</p>
       </section>
 
+      <section className="work-strip" aria-label="Work areas">
+        {[
+          ["/slides/procurement.jpg", "Procurement"],
+          ["/slides/project.jpg", "Documentation"],
+          ["/slides/it.jpg", "IT"],
+          ["/slides/civil.jpg", "Civil"],
+          ["/slides/electrical.jpg", "Electrical"],
+          ["/slides/infrastructure.jpg", "Projects"],
+        ].map(([src, label]) => (
+          <article key={label}>
+            <img src={src} alt="" />
+            <span>{label}</span>
+          </article>
+        ))}
+      </section>
+
       <section className="section">
         <div className="section-head">
           <p className="eyebrow">01 — Executive snapshot</p>

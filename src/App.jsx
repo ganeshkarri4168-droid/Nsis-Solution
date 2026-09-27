@@ -2,6 +2,7 @@ import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import FooterStrip from "./components/FooterStrip.jsx";
 import FloatActions from "./components/FloatActions.jsx";
 import Snapshot from "./pages/Snapshot.jsx";
 import Home from "./pages/Home.jsx";
@@ -23,6 +24,8 @@ function ScrollToTop() {
 }
 
 export default function App() {
+  const { pathname } = useLocation();
+
   return (
     <div className="app-shell">
       <ScrollToTop />
@@ -44,6 +47,7 @@ export default function App() {
         <Route path="/approach" element={<Navigate to="/how-we-work" replace />} />
         <Route path="/credentials" element={<Navigate to="/why-nsis" replace />} />
       </Routes>
+      {pathname !== "/admin" ? <FooterStrip /> : null}
       <Footer />
       <FloatActions />
     </div>
