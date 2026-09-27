@@ -16,7 +16,7 @@ export default function Leadership() {
         <div className="profile-hero-inner">
           <div className="profile-avatar-wrap">
             <div className="profile-avatar profile-avatar-photo">
-              <img src="/nsis-profile.jpg" alt={COMPANY.leader} />
+              <img src="/nsis-profile.jpg?v=suit" alt={COMPANY.leader} />
             </div>
             <span className="profile-badge">
               <Icon name="shield" />
@@ -48,7 +48,7 @@ export default function Leadership() {
       <section className="section profile-story">
         <div className="profile-story-head">
           <div className="profile-portrait-frame">
-            <img src="/nsis-profile.jpg" alt="" />
+            <img src="/nsis-profile.jpg?v=suit" alt="" />
           </div>
           <div>
             <p className="chip">Proprietor</p>

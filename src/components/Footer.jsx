@@ -53,9 +53,11 @@ export default function Footer() {
         </div>
         <div>
           <h2>Contact Information</h2>
-          {COMPANY.addressLines.map((line) => (
-            <p key={line}>{line}</p>
-          ))}
+          <div className="footer-address">
+            {COMPANY.addressLines.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
           <FooterLink href={`mailto:${COMPANY.email}`}>{COMPANY.email}</FooterLink>
           <FooterLink href={`tel:${COMPANY.phoneTel[0]}`}>{COMPANY.phones[0]}</FooterLink>
           <FooterLink href={`https://wa.me/${whatsapp}`}>WhatsApp {whatsappDisplay}</FooterLink>

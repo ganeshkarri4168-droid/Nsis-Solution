@@ -569,8 +569,9 @@ button,
 }
 
 .leader-avatar {
-  width: 76px;
-  height: 76px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
   border-width: 2px;
 }
 
@@ -721,8 +722,15 @@ input, textarea, select {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.3fr 0.8fr 0.9fr 1.1fr;
-  gap: 24px;
+  grid-template-columns: 1.1fr 0.95fr 1.2fr 1.25fr;
+  gap: 48px;
+}
+
+.footer-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
 }
 
 .footer h2, .brand-mini {
@@ -731,6 +739,7 @@ input, textarea, select {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-family: "Libre Franklin", sans-serif;
+  margin: 0 0 4px;
 }
 
 .footer-logo {
@@ -743,13 +752,21 @@ input, textarea, select {
   margin: 10px 0 14px;
 }
 
-.footer a { display: block; margin-bottom: 6px; }
+.footer p,
+.footer a {
+  margin: 0;
+}
 
 .footer-link {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
-  margin-bottom: 8px;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .footer-arrow {
